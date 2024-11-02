@@ -5,9 +5,8 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
-						margin: 0
+	margin: 0;
 }
 
 ul {
@@ -24,11 +23,14 @@ a {
     text-decoration: none;
 }
 
-.head {
+.darkback {
+    background-color: #1F2937;
+}
+
+.head { /*!!!*/
     display: flex;
     flex-direction: column;
     justify-content: center; /*?*/
-    background-color: #1F2937;
     gap: 30px;
     padding: 0px 10% 50px 10%;
 }
@@ -78,7 +80,8 @@ a {
     margin: 0;
 }
 
-.hero p {
+.header a,
+.sectext {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -89,3 +92,67 @@ a {
     border-radius: 4px;
     padding: 4px 10px 4px 10px;
 }
+
+.addinf {
+    margin-bottom: 30px;
+}
+
+.addinf h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    width: fit-content;
+    margin: 30px auto 50px auto;
+}
+
+.squares {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.squares div {
+    width: 150px;
+    text-align: center;
+}
+
+.squares img {
+    object-fit: cover;
+    width: 150px;
+    height: 160px;
+    border: 2px solid #3992F6;
+    border-radius: 15px;
+}
+
+.ending {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 20%  10% 20%;
+}
+
+.ending p {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.box > .name {
+    font-weight: 900;
+    color: black;
+    font-size: 28px;
+    font-style: normal;
+    width: fit-content;
+    margin: 0 0 0 auto;
+}
+
+/*.action {
+    background-color: #3992F6;
+}*/
